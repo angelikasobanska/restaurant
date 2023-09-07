@@ -1,0 +1,85 @@
+.intro {
+min-width:100vw;
+height:100vh;
+background-image:url(img/restaurant-main-photo.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+position:relative;
+}
+
+/*.about-us {
+    flex-direction:column;
+}*/
+
+.about-us-text {
+    width:80%;
+    margin:2rem auto;
+    text-align:justify;
+
+}
+
+.parallax {
+    min-height:40vh;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+}
+
+.parallax1 {
+background-image:url(img/restaurant-second.jpg);
+}
+.parallax2 {
+background-image:url(img/restaurant-third.jpg);
+ }
+
+ @media(min-width:50em) {
+    .about-us-text {
+        width:60%;
+        margin:1rem auto;
+    }
+ }
+
+ .dish-item {
+    min-height:70vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:3rem;
+ }
+
+ .pizza-box {
+    background-image:url(img/dishes-pizza.jpg);
+ }
+
+ .pasta-box {
+    background-image:url(img/dishes-pasta.jpg);
+ }
+
+ .salads-box {
+    background-image:url(img/dishes-salads.jpg);
+ }
+
+ .dish-item-box {
+    background-color:rgba(23, 38, 30, 0.5);
+    min-height:70vh;
+   
+ }
+
+ .dish-item-text {
+    min-height:70vh;
+    display:flex;
+flex-direction:column;
+justify-content: center;
+align-items:start;
+    max-width:60%;
+    padding:2rem 0rem;
+   margin:0 auto;
+ }
+
+ /*.dish-item-description {
+    padding:2em 0;
+ }*/
+
